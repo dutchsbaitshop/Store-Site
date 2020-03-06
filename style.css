@@ -1,0 +1,195 @@
+/* Stylesheet for bait shop site */
+html {
+  scroll-behavior: smooth;
+}
+body {
+ background-color: #95BCDC;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #355266;
+  position: sticky;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a {
+  display: block;
+  color: #E7ECEF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.nav li a:hover:not(.active) {
+  background-color: #E7ECEF;
+  color: #23364A;
+}
+ul.nav li a.active {
+  background-color: #4CAF50;
+}
+ul.nav li.right {
+  float: right;
+}
+div.quote {
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+}
+#text {
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+}
+#mention {
+  text-align: right;
+  margin: 15px;
+}
+div.quote {
+  border-radius: 25px;
+  border: 2px solid #002a4b;
+  padding: 15px;
+  width: 70%;
+  height: auto;
+  margin: 15px;
+  background-color: #002a4b;
+  color: #DDDD;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hours {
+  border-collapse: collapse;
+  width: 90%;
+}
+#hours td, #hours th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#hours tr:nth-child(even){
+  background-color: #F2F2F2;
+}
+div.hours {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+}
+div h3 {
+  text-align: center;
+}
+div.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+}
+iframe {
+  max-width: 95%;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div section {
+  background-color: #75BBCE;
+}
+section h2 {
+  padding-left: 15%;
+}
+div.bait {
+
+}
+@media only screen and (min-width: 1100px) {
+  /* Desktop */
+  div.header {
+    max-width: 100%;
+    height: 300px;
+  }
+  img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+  div.nav {
+    padding: 150px 0 30px 0;
+    position: sticky;
+  }
+  ul {
+    position: sticky;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* Phone */
+  div.header {
+    max-width: 100%;
+    height: 150px;
+    padding-bottom: 0;
+  }
+  img {
+    max-width: 90%;
+    min-width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+  ul.nav li.right, ul.nav li {
+    float: none;
+  }
+  div.nav {
+    padding: 0 0 30px 0;
+    position: sticky;
+  }
+  section h2 {
+    padding-left: 5%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  /* Tablet */
+  div.header {
+    max-width: 100%;
+    height: 200px;
+    padding-bottom: 0;
+  }
+  img {
+    max-width: 80%;
+    min-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  /* Laptop */
+  div.header {
+    max-width: 100%;
+    height: 300px;
+  }
+  img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  div.nav {
+    padding: 0px 0 30px 0;
+    position: sticky;
+  }
+  ul {
+    position: sticky;
+  }
+}
